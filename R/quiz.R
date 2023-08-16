@@ -189,7 +189,7 @@ question <- function(
   }
   if (is.null(try_again)) {
     try_again <- if (identical(type, "learnr_checkbox")) {
-      ""
+      "Incorrect. Be sure to select every correct answer."
     } else {
       incorrect
     }
