@@ -466,7 +466,7 @@ question_module_server_impl <- function(
 
       # update the submit button label
       if (is_correct_info()$correct) {
-        "correct"
+        "try_again"
       } else {
         # not correct
         if (isTRUE(question$allow_retry)) {
